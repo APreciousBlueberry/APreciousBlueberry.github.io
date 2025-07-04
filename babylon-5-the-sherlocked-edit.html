@@ -1,0 +1,1448 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><style>@font-face {
+  font-family: octicons-link;
+  src: url(data:font/woff;charset=utf-8;base64,d09GRgABAAAAAAZwABAAAAAACFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEU0lHAAAGaAAAAAgAAAAIAAAAAUdTVUIAAAZcAAAACgAAAAoAAQAAT1MvMgAAAyQAAABJAAAAYFYEU3RjbWFwAAADcAAAAEUAAACAAJThvmN2dCAAAATkAAAABAAAAAQAAAAAZnBnbQAAA7gAAACyAAABCUM+8IhnYXNwAAAGTAAAABAAAAAQABoAI2dseWYAAAFsAAABPAAAAZwcEq9taGVhZAAAAsgAAAA0AAAANgh4a91oaGVhAAADCAAAABoAAAAkCA8DRGhtdHgAAAL8AAAADAAAAAwGAACfbG9jYQAAAsAAAAAIAAAACABiATBtYXhwAAACqAAAABgAAAAgAA8ASm5hbWUAAAToAAABQgAAAlXu73sOcG9zdAAABiwAAAAeAAAAME3QpOBwcmVwAAAEbAAAAHYAAAB/aFGpk3jaTY6xa8JAGMW/O62BDi0tJLYQincXEypYIiGJjSgHniQ6umTsUEyLm5BV6NDBP8Tpts6F0v+k/0an2i+itHDw3v2+9+DBKTzsJNnWJNTgHEy4BgG3EMI9DCEDOGEXzDADU5hBKMIgNPZqoD3SilVaXZCER3/I7AtxEJLtzzuZfI+VVkprxTlXShWKb3TBecG11rwoNlmmn1P2WYcJczl32etSpKnziC7lQyWe1smVPy/Lt7Kc+0vWY/gAgIIEqAN9we0pwKXreiMasxvabDQMM4riO+qxM2ogwDGOZTXxwxDiycQIcoYFBLj5K3EIaSctAq2kTYiw+ymhce7vwM9jSqO8JyVd5RH9gyTt2+J/yUmYlIR0s04n6+7Vm1ozezUeLEaUjhaDSuXHwVRgvLJn1tQ7xiuVv/ocTRF42mNgZGBgYGbwZOBiAAFGJBIMAAizAFoAAABiAGIAznjaY2BkYGAA4in8zwXi+W2+MjCzMIDApSwvXzC97Z4Ig8N/BxYGZgcgl52BCSQKAA3jCV8CAABfAAAAAAQAAEB42mNgZGBg4f3vACQZQABIMjKgAmYAKEgBXgAAeNpjYGY6wTiBgZWBg2kmUxoDA4MPhGZMYzBi1AHygVLYQUCaawqDA4PChxhmh/8ODDEsvAwHgMKMIDnGL0x7gJQCAwMAJd4MFwAAAHjaY2BgYGaA4DAGRgYQkAHyGMF8NgYrIM3JIAGVYYDT+AEjAwuDFpBmA9KMDEwMCh9i/v8H8sH0/4dQc1iAmAkALaUKLgAAAHjaTY9LDsIgEIbtgqHUPpDi3gPoBVyRTmTddOmqTXThEXqrob2gQ1FjwpDvfwCBdmdXC5AVKFu3e5MfNFJ29KTQT48Ob9/lqYwOGZxeUelN2U2R6+cArgtCJpauW7UQBqnFkUsjAY/kOU1cP+DAgvxwn1chZDwUbd6CFimGXwzwF6tPbFIcjEl+vvmM/byA48e6tWrKArm4ZJlCbdsrxksL1AwWn/yBSJKpYbq8AXaaTb8AAHja28jAwOC00ZrBeQNDQOWO//sdBBgYGRiYWYAEELEwMTE4uzo5Zzo5b2BxdnFOcALxNjA6b2ByTswC8jYwg0VlNuoCTWAMqNzMzsoK1rEhNqByEyerg5PMJlYuVueETKcd/89uBpnpvIEVomeHLoMsAAe1Id4AAAAAAAB42oWQT07CQBTGv0JBhagk7HQzKxca2sJCE1hDt4QF+9JOS0nbaaYDCQfwCJ7Au3AHj+LO13FMmm6cl7785vven0kBjHCBhfpYuNa5Ph1c0e2Xu3jEvWG7UdPDLZ4N92nOm+EBXuAbHmIMSRMs+4aUEd4Nd3CHD8NdvOLTsA2GL8M9PODbcL+hD7C1xoaHeLJSEao0FEW14ckxC+TU8TxvsY6X0eLPmRhry2WVioLpkrbp84LLQPGI7c6sOiUzpWIWS5GzlSgUzzLBSikOPFTOXqly7rqx0Z1Q5BAIoZBSFihQYQOOBEdkCOgXTOHA07HAGjGWiIjaPZNW13/+lm6S9FT7rLHFJ6fQbkATOG1j2OFMucKJJsxIVfQORl+9Jyda6Sl1dUYhSCm1dyClfoeDve4qMYdLEbfqHf3O/AdDumsjAAB42mNgYoAAZQYjBmyAGYQZmdhL8zLdDEydARfoAqIAAAABAAMABwAKABMAB///AA8AAQAAAAAAAAAAAAAAAAABAAAAAA==) format('woff');
+}
+
+@media (prefers-color-scheme: dark) {
+  body,
+  [data-theme="dark"] {
+    /*dark*/
+    color-scheme: dark;
+    --color-prettylights-syntax-comment: #8b949e;
+    --color-prettylights-syntax-constant: #79c0ff;
+    --color-prettylights-syntax-entity: #d2a8ff;
+    --color-prettylights-syntax-storage-modifier-import: #c9d1d9;
+    --color-prettylights-syntax-entity-tag: #7ee787;
+    --color-prettylights-syntax-keyword: #ff7b72;
+    --color-prettylights-syntax-string: #a5d6ff;
+    --color-prettylights-syntax-variable: #ffa657;
+    --color-prettylights-syntax-brackethighlighter-unmatched: #f85149;
+    --color-prettylights-syntax-invalid-illegal-text: #f0f6fc;
+    --color-prettylights-syntax-invalid-illegal-bg: #8e1519;
+    --color-prettylights-syntax-carriage-return-text: #f0f6fc;
+    --color-prettylights-syntax-carriage-return-bg: #b62324;
+    --color-prettylights-syntax-string-regexp: #7ee787;
+    --color-prettylights-syntax-markup-list: #f2cc60;
+    --color-prettylights-syntax-markup-heading: #1f6feb;
+    --color-prettylights-syntax-markup-italic: #c9d1d9;
+    --color-prettylights-syntax-markup-bold: #c9d1d9;
+    --color-prettylights-syntax-markup-deleted-text: #ffdcd7;
+    --color-prettylights-syntax-markup-deleted-bg: #67060c;
+    --color-prettylights-syntax-markup-inserted-text: #aff5b4;
+    --color-prettylights-syntax-markup-inserted-bg: #033a16;
+    --color-prettylights-syntax-markup-changed-text: #ffdfb6;
+    --color-prettylights-syntax-markup-changed-bg: #5a1e02;
+    --color-prettylights-syntax-markup-ignored-text: #c9d1d9;
+    --color-prettylights-syntax-markup-ignored-bg: #1158c7;
+    --color-prettylights-syntax-meta-diff-range: #d2a8ff;
+    --color-prettylights-syntax-brackethighlighter-angle: #8b949e;
+    --color-prettylights-syntax-sublimelinter-gutter-mark: #484f58;
+    --color-prettylights-syntax-constant-other-reference-link: #a5d6ff;
+    --color-fg-default: #e6edf3;
+    --color-fg-muted: #848d97;
+    --color-fg-subtle: #6e7681;
+    --color-canvas-default: #0d1117;
+    --color-canvas-subtle: #161b22;
+    --color-border-default: #30363d;
+    --color-border-muted: #21262d;
+    --color-neutral-muted: rgba(110,118,129,0.4);
+    --color-accent-fg: #2f81f7;
+    --color-accent-emphasis: #1f6feb;
+    --color-success-fg: #3fb950;
+    --color-success-emphasis: #238636;
+    --color-attention-fg: #d29922;
+    --color-attention-emphasis: #9e6a03;
+    --color-attention-subtle: rgba(187,128,9,0.15);
+    --color-danger-fg: #f85149;
+    --color-danger-emphasis: #da3633;
+    --color-done-fg: #a371f7;
+    --color-done-emphasis: #8957e5;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body,
+  [data-theme="light"] {
+    /*light*/
+    color-scheme: light;
+    --color-prettylights-syntax-comment: #57606a;
+    --color-prettylights-syntax-constant: #0550ae;
+    --color-prettylights-syntax-entity: #6639ba;
+    --color-prettylights-syntax-storage-modifier-import: #24292f;
+    --color-prettylights-syntax-entity-tag: #116329;
+    --color-prettylights-syntax-keyword: #cf222e;
+    --color-prettylights-syntax-string: #0a3069;
+    --color-prettylights-syntax-variable: #953800;
+    --color-prettylights-syntax-brackethighlighter-unmatched: #82071e;
+    --color-prettylights-syntax-invalid-illegal-text: #f6f8fa;
+    --color-prettylights-syntax-invalid-illegal-bg: #82071e;
+    --color-prettylights-syntax-carriage-return-text: #f6f8fa;
+    --color-prettylights-syntax-carriage-return-bg: #cf222e;
+    --color-prettylights-syntax-string-regexp: #116329;
+    --color-prettylights-syntax-markup-list: #3b2300;
+    --color-prettylights-syntax-markup-heading: #0550ae;
+    --color-prettylights-syntax-markup-italic: #24292f;
+    --color-prettylights-syntax-markup-bold: #24292f;
+    --color-prettylights-syntax-markup-deleted-text: #82071e;
+    --color-prettylights-syntax-markup-deleted-bg: #ffebe9;
+    --color-prettylights-syntax-markup-inserted-text: #116329;
+    --color-prettylights-syntax-markup-inserted-bg: #dafbe1;
+    --color-prettylights-syntax-markup-changed-text: #953800;
+    --color-prettylights-syntax-markup-changed-bg: #ffd8b5;
+    --color-prettylights-syntax-markup-ignored-text: #eaeef2;
+    --color-prettylights-syntax-markup-ignored-bg: #0550ae;
+    --color-prettylights-syntax-meta-diff-range: #8250df;
+    --color-prettylights-syntax-brackethighlighter-angle: #57606a;
+    --color-prettylights-syntax-sublimelinter-gutter-mark: #8c959f;
+    --color-prettylights-syntax-constant-other-reference-link: #0a3069;
+    --color-fg-default: #1F2328;
+    --color-fg-muted: #656d76;
+    --color-fg-subtle: #6e7781;
+    --color-canvas-default: #ffffff;
+    --color-canvas-subtle: #f6f8fa;
+    --color-border-default: #d0d7de;
+    --color-border-muted: hsla(210,18%,87%,1);
+    --color-neutral-muted: rgba(175,184,193,0.2);
+    --color-accent-fg: #0969da;
+    --color-accent-emphasis: #0969da;
+    --color-success-fg: #1a7f37;
+    --color-success-emphasis: #1f883d;
+    --color-attention-fg: #9a6700;
+    --color-attention-emphasis: #9a6700;
+    --color-attention-subtle: #fff8c5;
+    --color-danger-fg: #d1242f;
+    --color-danger-emphasis: #cf222e;
+    --color-done-fg: #8250df;
+    --color-done-emphasis: #8250df;
+  }
+}
+
+body {
+    width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: var(--color-canvas-default);
+}
+
+.markdown-body .octicon-link:before {
+  font: normal normal normal 16px/1 octicons-link;
+  display: inline-block;
+  text-decoration: none;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  content: '\f05c';
+  vertical-align: middle;
+}
+
+.markdown-body {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  margin: 0;
+  color: var(--color-fg-default);
+  background-color: var(--color-canvas-default);
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 16px;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+.markdown-body .octicon {
+  display: inline-block;
+  fill: currentColor;
+  vertical-align: text-bottom;
+}
+
+.markdown-body h1:hover .anchor .octicon-link:before,
+.markdown-body h2:hover .anchor .octicon-link:before,
+.markdown-body h3:hover .anchor .octicon-link:before,
+.markdown-body h4:hover .anchor .octicon-link:before,
+.markdown-body h5:hover .anchor .octicon-link:before,
+.markdown-body h6:hover .anchor .octicon-link:before {
+  width: 16px;
+  height: 16px;
+  content: ' ';
+  display: inline-block;
+  background-color: currentColor;
+  -webkit-mask-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' version='1.1' aria-hidden='true'><path fill-rule='evenodd' d='M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z'></path></svg>");
+  mask-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' version='1.1' aria-hidden='true'><path fill-rule='evenodd' d='M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z'></path></svg>");
+}
+
+.markdown-body details,
+.markdown-body figcaption,
+.markdown-body figure {
+  display: block;
+}
+
+.markdown-body summary {
+  display: list-item;
+}
+
+.markdown-body [hidden] {
+  display: none !important;
+}
+
+.markdown-body a {
+  background-color: transparent;
+  color: var(--color-accent-fg);
+  text-decoration: none;
+}
+
+.markdown-body abbr[title] {
+  border-bottom: none;
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted;
+}
+
+.markdown-body b,
+.markdown-body strong {
+  font-weight: var(--base-text-weight-semibold, 600);
+}
+
+.markdown-body dfn {
+  font-style: italic;
+}
+
+.markdown-body h1 {
+  margin: .67em 0;
+  font-weight: var(--base-text-weight-semibold, 600);
+  padding-bottom: .3em;
+  font-size: 2em;
+  border-bottom: 1px solid var(--color-border-muted);
+}
+
+.markdown-body mark {
+  background-color: var(--color-attention-subtle);
+  color: var(--color-fg-default);
+}
+
+.markdown-body small {
+  font-size: 90%;
+}
+
+.markdown-body sub,
+.markdown-body sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+.markdown-body sub {
+  bottom: -0.25em;
+}
+
+.markdown-body sup {
+  top: -0.5em;
+}
+
+.markdown-body img {
+  border-style: none;
+  max-width: 100%;
+  box-sizing: content-box;
+  background-color: var(--color-canvas-default);
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre,
+.markdown-body samp {
+  font-family: monospace;
+  font-size: 1em;
+}
+
+.markdown-body figure {
+  margin: 1em 40px;
+}
+
+.markdown-body hr {
+  box-sizing: content-box;
+  overflow: hidden;
+  background: transparent;
+  border-bottom: 1px solid var(--color-border-muted);
+  height: .25em;
+  padding: 0;
+  margin: 24px 0;
+  background-color: var(--color-border-default);
+  border: 0;
+}
+
+.markdown-body input {
+  font: inherit;
+  margin: 0;
+  overflow: visible;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.markdown-body [type=button],
+.markdown-body [type=reset],
+.markdown-body [type=submit] {
+  -webkit-appearance: button;
+  appearance: button;
+}
+
+.markdown-body [type=checkbox],
+.markdown-body [type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.markdown-body [type=number]::-webkit-inner-spin-button,
+.markdown-body [type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+.markdown-body [type=search]::-webkit-search-cancel-button,
+.markdown-body [type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.markdown-body ::-webkit-input-placeholder {
+  color: inherit;
+  opacity: .54;
+}
+
+.markdown-body ::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  appearance: button;
+  font: inherit;
+}
+
+.markdown-body a:hover {
+  text-decoration: underline;
+}
+
+.markdown-body ::placeholder {
+  color: var(--color-fg-subtle);
+  opacity: 1;
+}
+
+.markdown-body hr::before {
+  display: table;
+  content: "";
+}
+
+.markdown-body hr::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.markdown-body table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  display: block;
+  width: max-content;
+  max-width: 100%;
+  overflow: auto;
+}
+
+.markdown-body td,
+.markdown-body th {
+  padding: 0;
+}
+
+.markdown-body details summary {
+  cursor: pointer;
+}
+
+.markdown-body details:not([open])>*:not(summary) {
+  display: none !important;
+}
+
+.markdown-body a:focus,
+.markdown-body [role=button]:focus,
+.markdown-body input[type=radio]:focus,
+.markdown-body input[type=checkbox]:focus {
+  outline: 2px solid var(--color-accent-fg);
+  outline-offset: -2px;
+  box-shadow: none;
+}
+
+.markdown-body a:focus:not(:focus-visible),
+.markdown-body [role=button]:focus:not(:focus-visible),
+.markdown-body input[type=radio]:focus:not(:focus-visible),
+.markdown-body input[type=checkbox]:focus:not(:focus-visible) {
+  outline: solid 1px transparent;
+}
+
+.markdown-body a:focus-visible,
+.markdown-body [role=button]:focus-visible,
+.markdown-body input[type=radio]:focus-visible,
+.markdown-body input[type=checkbox]:focus-visible {
+  outline: 2px solid var(--color-accent-fg);
+  outline-offset: -2px;
+  box-shadow: none;
+}
+
+.markdown-body a:not([class]):focus,
+.markdown-body a:not([class]):focus-visible,
+.markdown-body input[type=radio]:focus,
+.markdown-body input[type=radio]:focus-visible,
+.markdown-body input[type=checkbox]:focus,
+.markdown-body input[type=checkbox]:focus-visible {
+  outline-offset: 0;
+}
+
+.markdown-body kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font: 11px ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  line-height: 10px;
+  color: var(--color-fg-default);
+  vertical-align: middle;
+  background-color: var(--color-canvas-subtle);
+  border: solid 1px var(--color-neutral-muted);
+  border-bottom-color: var(--color-neutral-muted);
+  border-radius: 6px;
+  box-shadow: inset 0 -1px 0 var(--color-neutral-muted);
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  font-weight: var(--base-text-weight-semibold, 600);
+  line-height: 1.25;
+}
+
+.markdown-body h2 {
+  font-weight: var(--base-text-weight-semibold, 600);
+  padding-bottom: .3em;
+  font-size: 1.5em;
+  border-bottom: 1px solid var(--color-border-muted);
+}
+
+.markdown-body h3 {
+  font-weight: var(--base-text-weight-semibold, 600);
+  font-size: 1.25em;
+}
+
+.markdown-body h4 {
+  font-weight: var(--base-text-weight-semibold, 600);
+  font-size: 1em;
+}
+
+.markdown-body h5 {
+  font-weight: var(--base-text-weight-semibold, 600);
+  font-size: .875em;
+}
+
+.markdown-body h6 {
+  font-weight: var(--base-text-weight-semibold, 600);
+  font-size: .85em;
+  color: var(--color-fg-muted);
+}
+
+.markdown-body p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.markdown-body blockquote {
+  margin: 0;
+  padding: 0 1em;
+  color: var(--color-fg-muted);
+  border-left: .25em solid var(--color-border-default);
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 2em;
+}
+
+.markdown-body ol ol,
+.markdown-body ul ol {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ul ul ol,
+.markdown-body ul ol ol,
+.markdown-body ol ul ol,
+.markdown-body ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body dd {
+  margin-left: 0;
+}
+
+.markdown-body tt,
+.markdown-body code,
+.markdown-body samp {
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  font-size: 12px;
+}
+
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  font-size: 12px;
+  word-wrap: normal;
+}
+
+.markdown-body .octicon {
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.markdown-body input::-webkit-outer-spin-button,
+.markdown-body input::-webkit-inner-spin-button {
+  margin: 0;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.markdown-body .mr-2 {
+  margin-right: var(--base-size-8, 8px) !important;
+}
+
+.markdown-body::before {
+  display: table;
+  content: "";
+}
+
+.markdown-body::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.markdown-body>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+.markdown-body a:not([href]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+.markdown-body .absent {
+  color: var(--color-danger-fg);
+}
+
+.markdown-body .anchor {
+  display: none;
+  float: left;
+  padding-right: 4px;
+  margin-left: -20px;
+  line-height: 1;
+}
+
+.markdown-body .anchor:focus {
+  outline: none;
+}
+
+.markdown-body p,
+.markdown-body blockquote,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body dl,
+.markdown-body table,
+.markdown-body pre,
+.markdown-body details {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.markdown-body blockquote>:first-child {
+  margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body h1 .octicon-link,
+.markdown-body h2 .octicon-link,
+.markdown-body h3 .octicon-link,
+.markdown-body h4 .octicon-link,
+.markdown-body h5 .octicon-link,
+.markdown-body h6 .octicon-link {
+  color: var(--color-fg-default);
+  vertical-align: middle;
+  visibility: hidden;
+}
+
+.markdown-body h1:hover .anchor,
+.markdown-body h2:hover .anchor,
+.markdown-body h3:hover .anchor,
+.markdown-body h4:hover .anchor,
+.markdown-body h5:hover .anchor,
+.markdown-body h6:hover .anchor {
+  text-decoration: none;
+}
+
+.markdown-body h1:hover .anchor .octicon-link,
+.markdown-body h2:hover .anchor .octicon-link,
+.markdown-body h3:hover .anchor .octicon-link,
+.markdown-body h4:hover .anchor .octicon-link,
+.markdown-body h5:hover .anchor .octicon-link,
+.markdown-body h6:hover .anchor .octicon-link {
+  visibility: visible;
+}
+
+.markdown-body h1 tt,
+.markdown-body h1 code,
+.markdown-body h2 tt,
+.markdown-body h2 code,
+.markdown-body h3 tt,
+.markdown-body h3 code,
+.markdown-body h4 tt,
+.markdown-body h4 code,
+.markdown-body h5 tt,
+.markdown-body h5 code,
+.markdown-body h6 tt,
+.markdown-body h6 code {
+  padding: 0 .2em;
+  font-size: inherit;
+}
+
+.markdown-body summary h1,
+.markdown-body summary h2,
+.markdown-body summary h3,
+.markdown-body summary h4,
+.markdown-body summary h5,
+.markdown-body summary h6 {
+  display: inline-block;
+}
+
+.markdown-body summary h1 .anchor,
+.markdown-body summary h2 .anchor,
+.markdown-body summary h3 .anchor,
+.markdown-body summary h4 .anchor,
+.markdown-body summary h5 .anchor,
+.markdown-body summary h6 .anchor {
+  margin-left: -40px;
+}
+
+.markdown-body summary h1,
+.markdown-body summary h2 {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.markdown-body ul.no-list,
+.markdown-body ol.no-list {
+  padding: 0;
+  list-style-type: none;
+}
+
+.markdown-body ol[type="a s"] {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body ol[type="A s"] {
+  list-style-type: upper-alpha;
+}
+
+.markdown-body ol[type="i s"] {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ol[type="I s"] {
+  list-style-type: upper-roman;
+}
+
+.markdown-body ol[type="1"] {
+  list-style-type: decimal;
+}
+
+.markdown-body div>ol:not([type]) {
+  list-style-type: decimal;
+}
+
+.markdown-body ul ul,
+.markdown-body ul ol,
+.markdown-body ol ol,
+.markdown-body ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body li>p {
+  margin-top: 16px;
+}
+
+.markdown-body li+li {
+  margin-top: .25em;
+}
+
+.markdown-body dl {
+  padding: 0;
+}
+
+.markdown-body dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: var(--base-text-weight-semibold, 600);
+}
+
+.markdown-body dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.markdown-body table th {
+  font-weight: var(--base-text-weight-semibold, 600);
+}
+
+.markdown-body table th,
+.markdown-body table td {
+  padding: 6px 13px;
+  border: 1px solid var(--color-border-default);
+}
+
+.markdown-body table td>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body table tr {
+  background-color: var(--color-canvas-default);
+  border-top: 1px solid var(--color-border-muted);
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: var(--color-canvas-subtle);
+}
+
+.markdown-body table img {
+  background-color: transparent;
+}
+
+.markdown-body img[align=right] {
+  padding-left: 20px;
+}
+
+.markdown-body img[align=left] {
+  padding-right: 20px;
+}
+
+.markdown-body .emoji {
+  max-width: none;
+  vertical-align: text-top;
+  background-color: transparent;
+}
+
+.markdown-body span.frame {
+  display: block;
+  overflow: hidden;
+}
+
+.markdown-body span.frame>span {
+  display: block;
+  float: left;
+  width: auto;
+  padding: 7px;
+  margin: 13px 0 0;
+  overflow: hidden;
+  border: 1px solid var(--color-border-default);
+}
+
+.markdown-body span.frame span img {
+  display: block;
+  float: left;
+}
+
+.markdown-body span.frame span span {
+  display: block;
+  padding: 5px 0 0;
+  clear: both;
+  color: var(--color-fg-default);
+}
+
+.markdown-body span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both;
+}
+
+.markdown-body span.align-center>span {
+  display: block;
+  margin: 13px auto 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.markdown-body span.align-center span img {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.markdown-body span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both;
+}
+
+.markdown-body span.align-right>span {
+  display: block;
+  margin: 13px 0 0;
+  overflow: hidden;
+  text-align: right;
+}
+
+.markdown-body span.align-right span img {
+  margin: 0;
+  text-align: right;
+}
+
+.markdown-body span.float-left {
+  display: block;
+  float: left;
+  margin-right: 13px;
+  overflow: hidden;
+}
+
+.markdown-body span.float-left span {
+  margin: 13px 0 0;
+}
+
+.markdown-body span.float-right {
+  display: block;
+  float: right;
+  margin-left: 13px;
+  overflow: hidden;
+}
+
+.markdown-body span.float-right>span {
+  display: block;
+  margin: 13px auto 0;
+  overflow: hidden;
+  text-align: right;
+}
+
+.markdown-body code,
+.markdown-body tt {
+  padding: .2em .4em;
+  margin: 0;
+  font-size: 85%;
+  white-space: break-spaces;
+  background-color: var(--color-neutral-muted);
+  border-radius: 6px;
+}
+
+.markdown-body code br,
+.markdown-body tt br {
+  display: none;
+}
+
+.markdown-body del code {
+  text-decoration: inherit;
+}
+
+.markdown-body samp {
+  font-size: 85%;
+}
+
+.markdown-body pre code {
+  font-size: 100%;
+}
+
+.markdown-body pre>code {
+  padding: 0;
+  margin: 0;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.markdown-body .highlight {
+  margin-bottom: 16px;
+}
+
+.markdown-body .highlight pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.markdown-body .highlight pre,
+.markdown-body pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  color: var(--color-fg-default);
+  background-color: var(--color-canvas-subtle);
+  border-radius: 6px;
+}
+
+.markdown-body pre code,
+.markdown-body pre tt {
+  display: inline;
+  max-width: auto;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+
+.markdown-body .csv-data td,
+.markdown-body .csv-data th {
+  padding: 5px;
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 1;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.markdown-body .csv-data .blob-num {
+  padding: 10px 8px 9px;
+  text-align: right;
+  background: var(--color-canvas-default);
+  border: 0;
+}
+
+.markdown-body .csv-data tr {
+  border-top: 0;
+}
+
+.markdown-body .csv-data th {
+  font-weight: var(--base-text-weight-semibold, 600);
+  background: var(--color-canvas-subtle);
+  border-top: 0;
+}
+
+.markdown-body [data-footnote-ref]::before {
+  content: "[";
+}
+
+.markdown-body [data-footnote-ref]::after {
+  content: "]";
+}
+
+.markdown-body .footnotes {
+  font-size: 12px;
+  color: var(--color-fg-muted);
+  border-top: 1px solid var(--color-border-default);
+}
+
+.markdown-body .footnotes ol {
+  padding-left: 16px;
+}
+
+.markdown-body .footnotes ol ul {
+  display: inline-block;
+  padding-left: 16px;
+  margin-top: 16px;
+}
+
+.markdown-body .footnotes li {
+  position: relative;
+}
+
+.markdown-body .footnotes li:target::before {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  bottom: -8px;
+  left: -24px;
+  pointer-events: none;
+  content: "";
+  border: 2px solid var(--color-accent-emphasis);
+  border-radius: 6px;
+}
+
+.markdown-body .footnotes li:target {
+  color: var(--color-fg-default);
+}
+
+.markdown-body .footnotes .data-footnote-backref g-emoji {
+  font-family: monospace;
+}
+
+.markdown-body .pl-c {
+  color: var(--color-prettylights-syntax-comment);
+}
+
+.markdown-body .pl-c1,
+.markdown-body .pl-s .pl-v {
+  color: var(--color-prettylights-syntax-constant);
+}
+
+.markdown-body .pl-e,
+.markdown-body .pl-en {
+  color: var(--color-prettylights-syntax-entity);
+}
+
+.markdown-body .pl-smi,
+.markdown-body .pl-s .pl-s1 {
+  color: var(--color-prettylights-syntax-storage-modifier-import);
+}
+
+.markdown-body .pl-ent {
+  color: var(--color-prettylights-syntax-entity-tag);
+}
+
+.markdown-body .pl-k {
+  color: var(--color-prettylights-syntax-keyword);
+}
+
+.markdown-body .pl-s,
+.markdown-body .pl-pds,
+.markdown-body .pl-s .pl-pse .pl-s1,
+.markdown-body .pl-sr,
+.markdown-body .pl-sr .pl-cce,
+.markdown-body .pl-sr .pl-sre,
+.markdown-body .pl-sr .pl-sra {
+  color: var(--color-prettylights-syntax-string);
+}
+
+.markdown-body .pl-v,
+.markdown-body .pl-smw {
+  color: var(--color-prettylights-syntax-variable);
+}
+
+.markdown-body .pl-bu {
+  color: var(--color-prettylights-syntax-brackethighlighter-unmatched);
+}
+
+.markdown-body .pl-ii {
+  color: var(--color-prettylights-syntax-invalid-illegal-text);
+  background-color: var(--color-prettylights-syntax-invalid-illegal-bg);
+}
+
+.markdown-body .pl-c2 {
+  color: var(--color-prettylights-syntax-carriage-return-text);
+  background-color: var(--color-prettylights-syntax-carriage-return-bg);
+}
+
+.markdown-body .pl-sr .pl-cce {
+  font-weight: bold;
+  color: var(--color-prettylights-syntax-string-regexp);
+}
+
+.markdown-body .pl-ml {
+  color: var(--color-prettylights-syntax-markup-list);
+}
+
+.markdown-body .pl-mh,
+.markdown-body .pl-mh .pl-en,
+.markdown-body .pl-ms {
+  font-weight: bold;
+  color: var(--color-prettylights-syntax-markup-heading);
+}
+
+.markdown-body .pl-mi {
+  font-style: italic;
+  color: var(--color-prettylights-syntax-markup-italic);
+}
+
+.markdown-body .pl-mb {
+  font-weight: bold;
+  color: var(--color-prettylights-syntax-markup-bold);
+}
+
+.markdown-body .pl-md {
+  color: var(--color-prettylights-syntax-markup-deleted-text);
+  background-color: var(--color-prettylights-syntax-markup-deleted-bg);
+}
+
+.markdown-body .pl-mi1 {
+  color: var(--color-prettylights-syntax-markup-inserted-text);
+  background-color: var(--color-prettylights-syntax-markup-inserted-bg);
+}
+
+.markdown-body .pl-mc {
+  color: var(--color-prettylights-syntax-markup-changed-text);
+  background-color: var(--color-prettylights-syntax-markup-changed-bg);
+}
+
+.markdown-body .pl-mi2 {
+  color: var(--color-prettylights-syntax-markup-ignored-text);
+  background-color: var(--color-prettylights-syntax-markup-ignored-bg);
+}
+
+.markdown-body .pl-mdr {
+  font-weight: bold;
+  color: var(--color-prettylights-syntax-meta-diff-range);
+}
+
+.markdown-body .pl-ba {
+  color: var(--color-prettylights-syntax-brackethighlighter-angle);
+}
+
+.markdown-body .pl-sg {
+  color: var(--color-prettylights-syntax-sublimelinter-gutter-mark);
+}
+
+.markdown-body .pl-corl {
+  text-decoration: underline;
+  color: var(--color-prettylights-syntax-constant-other-reference-link);
+}
+
+.markdown-body g-emoji {
+  display: inline-block;
+  min-width: 1ch;
+  font-family: "Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 1em;
+  font-style: normal !important;
+  font-weight: var(--base-text-weight-normal, 400);
+  line-height: 1;
+  vertical-align: -0.075em;
+}
+
+.markdown-body g-emoji img {
+  width: 1em;
+  height: 1em;
+}
+
+.markdown-body .task-list-item {
+  list-style-type: none;
+}
+
+.markdown-body .task-list-item label {
+  font-weight: var(--base-text-weight-normal, 400);
+}
+
+.markdown-body .task-list-item.enabled label {
+  cursor: pointer;
+}
+
+.markdown-body .task-list-item+.task-list-item {
+  margin-top: 4px;
+}
+
+.markdown-body .task-list-item .handle {
+  display: none;
+}
+
+.markdown-body .task-list-item-checkbox {
+  margin: 0 .2em .25em -1.4em;
+  vertical-align: middle;
+}
+
+.markdown-body .contains-task-list:dir(rtl) .task-list-item-checkbox {
+  margin: 0 -1.6em .25em .2em;
+}
+
+.markdown-body .contains-task-list {
+  position: relative;
+}
+
+.markdown-body .contains-task-list:hover .task-list-item-convert-container,
+.markdown-body .contains-task-list:focus-within .task-list-item-convert-container {
+  display: block;
+  width: auto;
+  height: 24px;
+  overflow: visible;
+  clip: auto;
+}
+
+.markdown-body ::-webkit-calendar-picker-indicator {
+  filter: invert(50%);
+}
+
+.markdown-body .markdown-alert {
+  padding: var(--base-size-8, 8px) var(--base-size-16, 16px);
+  margin-bottom: 16px;
+  color: inherit;
+  border-left: .25em solid var(--color-border-default);
+}
+
+.markdown-body .markdown-alert>:first-child {
+  margin-top: 0;
+}
+
+.markdown-body .markdown-alert>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body .markdown-alert .markdown-alert-title {
+  display: flex;
+  font-weight: var(--base-text-weight-medium, 500);
+  align-items: center;
+  line-height: 1;
+}
+
+.markdown-body .markdown-alert.markdown-alert-note {
+  border-left-color: var(--color-accent-emphasis);
+}
+
+.markdown-body .markdown-alert.markdown-alert-note .markdown-alert-title {
+  color: var(--color-accent-fg);
+}
+
+.markdown-body .markdown-alert.markdown-alert-important {
+  border-left-color: var(--color-done-emphasis);
+}
+
+.markdown-body .markdown-alert.markdown-alert-important .markdown-alert-title {
+  color: var(--color-done-fg);
+}
+
+.markdown-body .markdown-alert.markdown-alert-warning {
+  border-left-color: var(--color-attention-emphasis);
+}
+
+.markdown-body .markdown-alert.markdown-alert-warning .markdown-alert-title {
+  color: var(--color-attention-fg);
+}
+
+.markdown-body .markdown-alert.markdown-alert-tip {
+  border-left-color: var(--color-success-emphasis);
+}
+
+.markdown-body .markdown-alert.markdown-alert-tip .markdown-alert-title {
+  color: var(--color-success-fg);
+}
+
+.markdown-body .markdown-alert.markdown-alert-caution {
+  border-left-color: var(--color-danger-emphasis);
+}
+
+.markdown-body .markdown-alert.markdown-alert-caution .markdown-alert-title {
+  color: var(--color-danger-fg);
+}
+</style><title># BABYLON 5 ▶ The Sherlocked Fan-Edit</title></head><body><article class="markdown-body"><div class="markdown-heading"><h1 class="heading-element">BABYLON 5 ▶ The Sherlocked Fan-Edit</h1><a id="user-content-babylon-5--the-sherlocked-fan-edit" class="anchor" aria-label="Permalink: BABYLON 5 ▶ The Sherlocked Fan-Edit" href="#babylon-5--the-sherlocked-fan-edit"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<div class="markdown-heading"><h4 class="heading-element">
+<a href="https://archive.org/download/apreciousblueberrys-fanedit-compendium/APreciousBlueberry%27s%20FAN-EDIT%20of%20Babylon%205%20-%20The%20Sherlocked%20Edit%20v25JUN.torrent" rel="nofollow"><strong>【 Download 】</strong></a> | <a href="https://www.youtube.com/watch?v=zF7X8ih2mjs" rel="nofollow">【 Watch Amazing Shots of Babylon 5 】</a> (2m) | <a href="https://archive.org/download/apreciousblueberrys-fanedit-compendium/APreciousBlueberry%27s%20FAN-EDIT%20of%20Babylon%205%20-%20The%20Sherlocked%20Edit%20v25JUN/APreciousBlueberry%27s%20FAN-EDIT%20of%20Babylon%205%20The%20Sherlocked%20Edit%20-%20S0E2%20-%20Editor%27s%20Highlights.mp4" rel="nofollow">【 Watch Editor's Highlights 】</a> (9m)</h4><a id="user-content--download----watch-amazing-shots-of-babylon-5--2m---watch-editors-highlights--9m" class="anchor" aria-label="Permalink: 【 Download 】 | 【 Watch Amazing Shots of Babylon 5 】 (2m) | 【 Watch Editor's Highlights 】 (9m)" href="#-download----watch-amazing-shots-of-babylon-5--2m---watch-editors-highlights--9m"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>It's 2257 and mankind stood on the eve of destruction. The Babylon station is
+constructed in neutral space between several major governments to provide a
+place for us to work out our problems peacefully. It is, we believe, our
+last, best hope for peace. But when a war of ideology breaks out between two
+superpowers, Babylon 5 becomes our last, best hope for victory.</p>
+<div class="markdown-heading"><h2 class="heading-element">ONE: SIGNS AND PORTENTS</h2><a id="user-content-one-signs-and-portents" class="anchor" aria-label="Permalink: ONE: SIGNS AND PORTENTS" href="#one-signs-and-portents"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<div class="markdown-heading"><h3 class="heading-element">
+<a href="https://archive.org/download/apreciousblueberrys-fanedit-compendium/APreciousBlueberry%27s%20FAN-EDIT%20of%20Babylon%205%20-%20The%20Sherlocked%20Edit%20v25JUN/APreciousBlueberry%27s%20FAN-EDIT%20of%20Babylon%205%20The%20Sherlocked%20Edit%20-%20S1E1%20-%20Midnight%20on%20the%20Firing%20Line.mp4" rel="nofollow">1.1 Midnight on the Firing Line</a> (1h30m) UPDATED 2025-JUNE</h3><a id="user-content-11-midnight-on-the-firing-line-1h30m-updated-2025-june" class="anchor" aria-label="Permalink: 1.1 Midnight on the Firing Line (1h30m) UPDATED 2025-JUNE" href="#11-midnight-on-the-firing-line-1h30m-updated-2025-june"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Welcome to Babylon 5! When the Narn attack a Centauri colony, Londo and G'Kar
+nearly come to blows, but Londo receives help from a mysterious stranger.
+Meanwhile, Garibaldi investigates an unauthorized use of a communications
+channel, and a Rabbi helps Ivanova come to terms with her father's death.
+Also, ambassador Kosh hires telepath Talia Winters to oversee an unusual
+negotiation.</p>
+<p>Sources: The Gathering, Midnight on the Firing Line, Signs and Portents,
+Chrysalis, with b-stories from Born to the Purple, Deathwalker, TKO, and
+brief scenes from In the Beginning, The Parliament of Dreams, Mind War</p>
+<div class="markdown-heading"><h3 class="heading-element">
+<a href="https://archive.org/download/apreciousblueberrys-fanedit-compendium/APreciousBlueberry%27s%20FAN-EDIT%20of%20Babylon%205%20-%20The%20Sherlocked%20Edit%20v25JUN/APreciousBlueberry%27s%20FAN-EDIT%20of%20Babylon%205%20The%20Sherlocked%20Edit%20-%20S1E2%20-%20By%20Any%20Means%20Necessary.mp4" rel="nofollow">1.2 By Any Means Necessary</a> (1h31m) UPDATED 2025-JUNE</h3><a id="user-content-12-by-any-means-necessary-1h31m-updated-2025-june" class="anchor" aria-label="Permalink: 1.2 By Any Means Necessary (1h31m) UPDATED 2025-JUNE" href="#12-by-any-means-necessary-1h31m-updated-2025-june"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>An accident in the docking area threatens to spark an illegal strike, while
+Sinclair is forced to protect a notorious war criminal who has invented an
+immortality serum. Meanwhile, the station hosts a week-long festival where
+humans and aliens demonstrate their religious beliefs, Londo interferes in an
+important Narn religious observation, and Dr. Franklin intercedes when a
+family refuses life-saving surgery because of their religious beliefs. Also,
+Catherine Sakai wants to survey a promising planet but G'Kar warns her to
+stay away.</p>
+<p>Sources: The Parliament of Dreams, Deathwalker, Believers, By Any Means
+Necessary, with b-stories from Infection, Mind War, and brief scenes from
+Midnight on the Firing Line, Soul Hunter, Signs and Portents</p>
+<div class="markdown-heading"><h3 class="heading-element">
+<a href="https://archive.org/download/apreciousblueberrys-fanedit-compendium/APreciousBlueberry%27s%20FAN-EDIT%20of%20Babylon%205%20-%20The%20Sherlocked%20Edit%20v25JUN/APreciousBlueberry%27s%20FAN-EDIT%20of%20Babylon%205%20The%20Sherlocked%20Edit%20-%20S1E3%20-%20The%20War%20Prayer.mp4" rel="nofollow">1.3 The War Prayer</a> (1h31m) UPDATED 2025-JUNE</h3><a id="user-content-13-the-war-prayer-1h31m-updated-2025-june" class="anchor" aria-label="Permalink: 1.3 The War Prayer (1h31m) UPDATED 2025-JUNE" href="#13-the-war-prayer-1h31m-updated-2025-june"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Garibaldi makes a discovery that could cost him his life, and he's blamed for
+an act of sabotage ahead of the President's visit, which leads to hitting the
+bottle after a prolonged abstinence. Meanwhile, a violent attack on a Minbari
+poet leaves Sinclair scrambling to flush out a vicious pro-Earth group, and
+Talia's old Psi Corps instructor is on the run from Psi-Cops. Also, Londo
+takes Lennier for a look at the less savory sections of the station.</p>
+<p>Sources: Mind War, The War Prayer, Survivors, Chrysalis, with b-stories from
+The Quality of Mercy, and brief scenes from Signs and Portents, Points of
+Departure, Revelations</p>
+<div class="markdown-heading"><h2 class="heading-element">TWO: THE COMING OF SHADOWS</h2><a id="user-content-two-the-coming-of-shadows" class="anchor" aria-label="Permalink: TWO: THE COMING OF SHADOWS" href="#two-the-coming-of-shadows"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<div class="markdown-heading"><h3 class="heading-element">
+<a href="https://archive.org/download/apreciousblueberrys-fanedit-compendium/APreciousBlueberry%27s%20FAN-EDIT%20of%20Babylon%205%20-%20The%20Sherlocked%20Edit%20v25JUN/APreciousBlueberry%27s%20FAN-EDIT%20of%20Babylon%205%20The%20Sherlocked%20Edit%20-%20S2E1%20-%20Divided%20Loyalties.mp4" rel="nofollow">2.1 Divided Loyalties</a> (1h30m) UPDATED 2025-JUNE</h3><a id="user-content-21-divided-loyalties-1h30m-updated-2025-june" class="anchor" aria-label="Permalink: 2.1 Divided Loyalties (1h30m) UPDATED 2025-JUNE" href="#21-divided-loyalties-1h30m-updated-2025-june"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>A fugitive with sensitive information about the Earth government flees to
+Babylon 5, Bester investigates an underground railroad of rogue telepaths,
+and Lyta Alexander returns with a warning. Meanwhile, a new commander assumes
+control of the station, and Delenn undergoes a mysterious change before the
+Grey Council decides her fate. Also, a new Earth Alliance agency tries to
+recruit station personnel, and General Hague makes an unofficial visit.</p>
+<p>Sources: A Race Through Dark Places, Hunter Prey, Divided Loyalties, with
+b-stories from Babylon Squared, All Alone in the Night, and brief scenes from
+Chrysalis, Points of Departure, Revelations, In the Shadow of Z'ha'dum</p>
+<div class="markdown-heading"><h3 class="heading-element">
+<a href="https://archive.org/download/apreciousblueberrys-fanedit-compendium/APreciousBlueberry%27s%20FAN-EDIT%20of%20Babylon%205%20-%20The%20Sherlocked%20Edit%20v25JUN/APreciousBlueberry%27s%20FAN-EDIT%20of%20Babylon%205%20The%20Sherlocked%20Edit%20-%20S2E2%20-%20Acts%20of%20Sacrifice.mp4" rel="nofollow">2.2 Acts of Sacrifice</a> (1h31m) UPDATED 2025-JUNE</h3><a id="user-content-22-acts-of-sacrifice-1h31m-updated-2025-june" class="anchor" aria-label="Permalink: 2.2 Acts of Sacrifice (1h31m) UPDATED 2025-JUNE" href="#22-acts-of-sacrifice-1h31m-updated-2025-june"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>The Centauri Emperor visits the station while Londo and Refa plot, and Babylon
+5 is embroiled in a deadly conflict between the Narn and Centauri while an
+ISN reporter covers the story. Meanwhile, G'Kar asks Sheridan and Delenn to
+intervene militarily on behalf of the Narn, before the Narn/Centauri War
+reaches a turning point.</p>
+<p>Sources: The Coming of Shadows, Acts of Sacrifice, And Now For a Word, The
+Long Twilight Struggle, and brief scenes from Revelations</p>
+<div class="markdown-heading"><h3 class="heading-element">
+<a href="https://archive.org/download/apreciousblueberrys-fanedit-compendium/APreciousBlueberry%27s%20FAN-EDIT%20of%20Babylon%205%20-%20The%20Sherlocked%20Edit%20v25JUN/APreciousBlueberry%27s%20FAN-EDIT%20of%20Babylon%205%20The%20Sherlocked%20Edit%20-%20S2E3%20-%20The%20Long%20Twilight%20Struggle.mp4" rel="nofollow">2.3 The Long Twilight Struggle</a> (1h30m) UPDATED 2025-JUNE</h3><a id="user-content-23-the-long-twilight-struggle-1h30m-updated-2025-june" class="anchor" aria-label="Permalink: 2.3 The Long Twilight Struggle (1h30m) UPDATED 2025-JUNE" href="#23-the-long-twilight-struggle-1h30m-updated-2025-june"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>A Narn warcruiser seeks help from Babylon 5, Earth takes a position on the
+Centauri, and Kosh takes a drastic step to save a life. Meanwhile, Ivanova is
+given a diplomatic assignment when the Drazi divide by random selection, a
+fatal disease spreads among the Markab population, and Sheridan discovers a
+connection between Morden and the death of his wife. Also, Delenn asks
+Sheridan to dinner and they share a growing trust and respect.</p>
+<p>Sources: In the Shadow of Z'ha'dum, Confessions and Lamentations, The Fall of
+Night, with b-stories from The Geometry of Shadows, and brief scenes from
+Soul Mates, A Race Through Dark Places, Knives, Divided Loyalties, The Long
+Twilight Struggle</p>
+<div class="markdown-heading"><h2 class="heading-element">THREE: POINT OF NO RETURN</h2><a id="user-content-three-point-of-no-return" class="anchor" aria-label="Permalink: THREE: POINT OF NO RETURN" href="#three-point-of-no-return"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<div class="markdown-heading"><h3 class="heading-element">
+<a href="https://archive.org/download/apreciousblueberrys-fanedit-compendium/APreciousBlueberry%27s%20FAN-EDIT%20of%20Babylon%205%20-%20The%20Sherlocked%20Edit%20v25JUN/APreciousBlueberry%27s%20FAN-EDIT%20of%20Babylon%205%20%28Sherlocked%20Edition%29%20-%207%20of%2016%20-%20Point%20of%20No%20Return.mp4" rel="nofollow">S3E1 Point of No Return</a> (1:29:25)</h3><a id="user-content-s3e1-point-of-no-return-12925" class="anchor" aria-label="Permalink: S3E1 Point of No Return (1:29:25)" href="#s3e1-point-of-no-return-12925"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>As the Earth Alliance plunges toward civil war, the Senate investigates
+President Clark, the Nightwatch tightens its grip, and Zack's loyalties are
+put to the test (Voices of Authority, Messages from Earth, Point of No
+Return). When President Clark tries to seize control of Babylon 5 by force,
+Sheridan is faced with the prospect of severing the station's ties with Earth
+(Severed Dreams). Meanwhile, Delenn receives disturbing news from a Ranger
+(Severed Dreams), and Londo and G'Kar are trapped in an elevator
+(Convictions).</p>
+<div class="markdown-heading"><h3 class="heading-element">
+<a href="https://archive.org/download/apreciousblueberrys-fanedit-compendium/APreciousBlueberry%27s%20FAN-EDIT%20of%20Babylon%205%20-%20The%20Sherlocked%20Edit%20v25JUN/APreciousBlueberry%27s%20FAN-EDIT%20of%20Babylon%205%20%28Sherlocked%20Edition%29%20-%208%20of%2016%20-%20Ship%20of%20Tears.mp4" rel="nofollow">S3E2 Ship of Tears</a> (1:31:20)</h3><a id="user-content-s3e2-ship-of-tears-13120" class="anchor" aria-label="Permalink: S3E2 Ship of Tears (1:31:20)" href="#s3e2-ship-of-tears-13120"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Sheridan and Ivanova try to gain recognition of the station's new status among
+the alien governments (A Late Delivery from Avalon), and they try to rally
+support as direct confrontation with the Shadows begins (Interludes and
+Examinations). Bester seeks Sheridan's help (Ship of Tears), and Sheridan
+receives a new tool in the fight against the Shadows (Matters of Honor).
+Meanwhile, Sheridan engages Kosh's interest and Kosh takes Sheridan for a
+lesson (Hunter Prey, There All the Honor Lies), Lyta Alexander returns to the
+station at Kosh's behest (Passing Through Gethsemane), and G'Kar uses a drug
+with telepathic effects (Dust to Dust). Also, Delenn plans a rebirth and
+renewal ceremony (Ceremonies of Light and Dark), and G'Kar presses for
+admission to the conspiracy of light (Ship of Tears).</p>
+<div class="markdown-heading"><h3 class="heading-element">
+<a href="https://archive.org/download/apreciousblueberrys-fanedit-compendium/APreciousBlueberry%27s%20FAN-EDIT%20of%20Babylon%205%20-%20The%20Sherlocked%20Edit%20v25JUN/APreciousBlueberry%27s%20FAN-EDIT%20of%20Babylon%205%20%28Sherlocked%20Edition%29%20-%209%20of%2016%20-%20And%20the%20Rock%20Cried%20Out%2C%20No%20Hiding%20Place.mp4" rel="nofollow">S3E3 And the Rock Cried Out, No Hiding Place</a> (1:29:10)</h3><a id="user-content-s3e3-and-the-rock-cried-out-no-hiding-place-12910" class="anchor" aria-label="Permalink: S3E3 And the Rock Cried Out, No Hiding Place (1:29:10)" href="#s3e3-and-the-rock-cried-out-no-hiding-place-12910"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Sheridan is consumed by his analysis of the Shadows' strategies (And the Rock
+Cried Out No Hiding Place), and he launches a pre-emptive strike against the
+Shadows (Shadow Dancing). Meanwhile, Londo severs his ties with Morden
+(Matters of Honor, Interludes and Examinations), presents Refa with an
+ultimatum (Ceremonies of Light and Dark), and uses G'Kar and Vir to gain
+power in the Centauri Royal Court (And the Rock Cried Out No Hiding Place).
+Also, a face from Sheridan's past takes him on a dangerous mission to meet
+his Shadow counterpart, as the Shadows mass a fleet against Babylon 5
+(Z'ha'dum).</p>
+<div class="markdown-heading"><h2 class="heading-element">FOUR: NO SURRENDER, NO RETREAT</h2><a id="user-content-four-no-surrender-no-retreat" class="anchor" aria-label="Permalink: FOUR: NO SURRENDER, NO RETREAT" href="#four-no-surrender-no-retreat"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<div class="markdown-heading"><h3 class="heading-element">
+<a href="https://archive.org/download/apreciousblueberrys-fanedit-compendium/APreciousBlueberry%27s%20FAN-EDIT%20of%20Babylon%205%20-%20The%20Sherlocked%20Edit%20v25JUN/APreciousBlueberry%27s%20FAN-EDIT%20of%20Babylon%205%20%28Sherlocked%20Edition%29%20-%2010%20of%2016%20-%20Falling%20Toward%20Apotheosis.mp4" rel="nofollow">S4E1 Falling Toward Apotheosis</a> (1:31:03)</h3><a id="user-content-s4e1-falling-toward-apotheosis-13103" class="anchor" aria-label="Permalink: S4E1 Falling Toward Apotheosis (1:31:03)" href="#s4e1-falling-toward-apotheosis-13103"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>When Londo discovers that Emperor Cartagia has struck a disturbing deal
+endangering Centauri Prime (The Hour of the Wolf), Londo and Vir scheme to
+kill Cartagia (The Long Night, Into the Fire). Meanwhile, G'Kar has been
+captured by the Centauri (Whatever Happened to Mr Garibaldi), and Londo makes
+G'Kar a promise in exchange for help overthrowing the Emperor (Falling Toward
+Apotheosis).</p>
+<div class="markdown-heading"><h3 class="heading-element">
+<a href="https://archive.org/download/apreciousblueberrys-fanedit-compendium/APreciousBlueberry%27s%20FAN-EDIT%20of%20Babylon%205%20-%20The%20Sherlocked%20Edit%20v25JUN/APreciousBlueberry%27s%20FAN-EDIT%20of%20Babylon%205%20%28Sherlocked%20Edition%29%20-%2011%20of%2016%20-%20Into%20the%20Fire.mp4" rel="nofollow">S4E2 Into the Fire</a> (1:30:26)</h3><a id="user-content-s4e2-into-the-fire-13026" class="anchor" aria-label="Permalink: S4E2 Into the Fire (1:30:26)" href="#s4e2-into-the-fire-13026"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Sheridan has returned to Babylon 5, seemingly back from the dead and
+accompanied by a mysterious stranger (Whatever Happened to Mr Garibaldi, The
+Summoning). The new Ambassador Kosh arrives (Walkabout), but the Vorlons step
+up their battle against the Shadows, and Garibaldi must remove Kosh from the
+station (Falling Toward Apotheosis). As the Army of Light prepares to strike,
+the Shadows unleash a terrible new weapon (The Long Night), before the Army
+of Light mounts its final assault (Into the Fire).</p>
+<div class="markdown-heading"><h3 class="heading-element">
+<a href="https://archive.org/download/apreciousblueberrys-fanedit-compendium/APreciousBlueberry%27s%20FAN-EDIT%20of%20Babylon%205%20-%20The%20Sherlocked%20Edit%20v25JUN/APreciousBlueberry%27s%20FAN-EDIT%20of%20Babylon%205%20%28Sherlocked%20Edition%29%20-%2012%20of%2016%20-%20The%20Illusion%20of%20Truth.mp4" rel="nofollow">S4E3 The Illusion of Truth</a> (1:30:47)</h3><a id="user-content-s4e3-the-illusion-of-truth-13047" class="anchor" aria-label="Permalink: S4E3 The Illusion of Truth (1:30:47)" href="#s4e3-the-illusion-of-truth-13047"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>ISN comes back on air and sends a team to do a story about Babylon 5 (Ship of
+Tears, The Illusion of Truth). But Sheridan is compelled to act after
+receiving horrible news (Moments of Transition), and he mobilizes his forces
+to liberate Proxima 3 (No Surrender No Retreat). Meanwhile, the resistance's
+counter-propaganda broadcast begins (Conflicts of Interest), and Delenn tries
+to defuse a brewing Minbari civil war (Lines of Communication, Rumors
+Bargains and Lies, Moments of Transition).</p>
+<div class="markdown-heading"><h3 class="heading-element">
+<a href="https://archive.org/download/apreciousblueberrys-fanedit-compendium/APreciousBlueberry%27s%20FAN-EDIT%20of%20Babylon%205%20-%20The%20Sherlocked%20Edit%20v25JUN/APreciousBlueberry%27s%20FAN-EDIT%20of%20Babylon%205%20%28Sherlocked%20Edition%29%20-%2013%20of%2016%20-%20Intersections%20in%20Real%20Time.mp4" rel="nofollow">S4E4 Intersections in Real Time</a> (1:33:43)</h3><a id="user-content-s4e4-intersections-in-real-time-13343" class="anchor" aria-label="Permalink: S4E4 Intersections in Real Time (1:33:43)" href="#s4e4-intersections-in-real-time-13343"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Sheridan faces an inquisitor from Earthdome (Intersections in Real Time).
+Meanwhile, Garibaldi takes on a new job (Epiphanies, Conflicts of Interest)
+and travels to Mars to meet his secretive employer (The Exercise of Vital
+Powers, The Face of the Enemy).</p>
+<blockquote>
+<p><em>JMS speaks:</em> If I had known with absolute certainty that there would be a
+season 5, then season 4 would have ended with 418, "Intersections in Real
+Time."</p>
+</blockquote>
+<div class="markdown-heading"><h2 class="heading-element">FIVE: THE WHEEL OF FIRE</h2><a id="user-content-five-the-wheel-of-fire" class="anchor" aria-label="Permalink: FIVE: THE WHEEL OF FIRE" href="#five-the-wheel-of-fire"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<div class="markdown-heading"><h3 class="heading-element">
+<a href="https://archive.org/download/apreciousblueberrys-fanedit-compendium/APreciousBlueberry%27s%20FAN-EDIT%20of%20Babylon%205%20-%20The%20Sherlocked%20Edit%20v25JUN/APreciousBlueberry%27s%20FAN-EDIT%20of%20Babylon%205%20%28Sherlocked%20Edition%29%20-%2014%20of%2016%20-%20Rising%20Star.mp4" rel="nofollow">S5E1 Rising Star</a> (1:31:02)</h3><a id="user-content-s5e1-rising-star-13102" class="anchor" aria-label="Permalink: S5E1 Rising Star (1:31:02)" href="#s5e1-rising-star-13102"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Franklin and Marcus arrive on Mars to begin their undercover mission
+(Racing Mars), and they try to convince the leaders of the resistance to go
+along with Sheridan's plan to unseat Clark (Lines of Communication).
+Meanwhile, Garibaldi is captured by the Mars Resistance, and they launch a
+plan to free Sheridan (Between the Darkness and the Light). Sheridan's forces
+make their final strike (Endgame), and Earthgov decides his fate
+(Rising Star). Also, Londo tries to enlist G'Kar's aid in backing Sheridan
+against Earth, and Delenn makes a remarkable proposition to the League of
+Non-Aligned Worlds(No Surrender No Retreat, Rising Star, The Deconstruction
+of Falling Stars).</p>
+<div class="markdown-heading"><h3 class="heading-element">
+<a href="https://archive.org/download/apreciousblueberrys-fanedit-compendium/APreciousBlueberry%27s%20FAN-EDIT%20of%20Babylon%205%20-%20The%20Sherlocked%20Edit%20v25JUN/APreciousBlueberry%27s%20FAN-EDIT%20of%20Babylon%205%20%28Sherlocked%20Edition%29%20-%2015%20of%2016%20-%20The%20Wheel%20of%20Fire.mp4" rel="nofollow">S5E2 The Wheel of Fire</a> (1:30:28)</h3><a id="user-content-s5e2-the-wheel-of-fire-13028" class="anchor" aria-label="Permalink: S5E2 The Wheel of Fire (1:30:28)" href="#s5e2-the-wheel-of-fire-13028"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Londo suffers a serious heart attack and must face his greatest fear to
+survive(The Very Long Night of Londo Mollari). Meanwhile, attacks begin on
+Alliance ships (In the Kingdom of the Blind). Garibaldi goes to the Drazi
+homeworld to search for a witness (The Ragged Edge), and Lennier uncovers
+hard evidence about the source of the attacks (Darkness Ascending). Evidence
+of who is behind the attacks is revealed to the Alliance, and the situation
+escalates into war(And All My Dreams Torn Asunder). Also, Lyta and Franklin
+visit the Drazi homeworld on a mission of mercy (Movements of Fire and
+Shadow), and Sheridan races to stop the Alliance ships from attacking
+Centauri Prime (The Fall of Centauri Prime).</p>
+<div class="markdown-heading"><h3 class="heading-element">
+<a href="https://archive.org/download/apreciousblueberrys-fanedit-compendium/APreciousBlueberry%27s%20FAN-EDIT%20of%20Babylon%205%20-%20The%20Sherlocked%20Edit%20v25JUN/APreciousBlueberry%27s%20FAN-EDIT%20of%20Babylon%205%20%28Sherlocked%20Edition%29%20-%2016%20of%2016%20-%20Sleeping%20in%20Light.mp4" rel="nofollow">S5E3 Sleeping in Light</a> (1:31:54)</h3><a id="user-content-s5e3-sleeping-in-light-13154" class="anchor" aria-label="Permalink: S5E3 Sleeping in Light (1:31:54)" href="#s5e3-sleeping-in-light-13154"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Tales intertwine as we look back at the impact of Babylon 5 from 100 years in
+the future (The Deconstruction of Falling Stars). Longtime residents prepare
+to leave the station (Objects in Motion, Objects at Rest), G'Kar becomes a
+religious icon and is subjected to unwanted attention (The Ragged Edge, The
+Wheel of Fire), and Lyta embraces a colony of rogue telepaths (The Paragon of
+Animals, Strange Relations, Secrets of the Soul, In the Kingdom of the Blind,
+Phoenix Rising). Meanwhile, in Sheridan's final days, old friends gather to
+celebrate (Sleeping in Light).</p>
+<div class="markdown-heading"><h2 class="heading-element">About This Edit</h2><a id="user-content-about-this-edit" class="anchor" aria-label="Permalink: About This Edit" href="#about-this-edit"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>In this TV-to-film fan-edit of 'Babylon 5' (imdb.com/title/tt0105946), I
+selected individual scenes throughout each season of 22 episodes, and I
+recombined them in creative ways to assemble a trilogy of movies per season.
+This version of 'Babylon 5' offers a fresh and cinematic way to experience
+the show. It moves at a faster pace while staying true to the spirit of the
+original work.</p>
+<p>The concept of this fan-edit was inspired by 'Sherlock'
+(imdb.com/title/tt1475582), which has an interesting and unconventional
+episode structure. Each season has just three episodes — but each episode is
+90m long. Which means each season of 'Sherlock' is ultimately a trilogy of
+movies. My goal with this fan-edit is to make a version of 'Babylon 5' that
+fits that same episode structure, where each season is a trilogy of 90m
+movies.</p>
+<p>Each movie aims to tell a self-contained story with cohesive themes. The first
+movie, for example, 'Midnight on the Firing Line', tells a Shadow-themed
+story, and it uses Shadow stories and scenes from all throughout the full
+show's first season. Likewise the third movie, 'The War Prayer', tells an
+Earth-themed story, and it uses Earth stories and scenes also from all
+throughout the full show's first season.</p>
+<p>This fan-edit is sourced from the 4:3 1080p remaster. <a href="https://tubitv.com/series/300010071/babylon-5" rel="nofollow">The full show is currently free to watch on Tubi</a>, and I encourage everyone to support the show. Enjoy!</p>
+<div class="markdown-heading"><h2 class="heading-element">Future Updates</h2><a id="user-content-future-updates" class="anchor" aria-label="Permalink: Future Updates" href="#future-updates"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>I created each of these movies at a cadence of one movie every two weeks, and
+it was very exciting when I made it to the end and released my 'Sleeping in
+Light' fan-edit movie. I'm now doing a final pass through each movie, where
+I'm smoothing the cuts, fixing the dialog, and improving encoding quality,
+and this final pass is also progressing at a cadence of one movie every two
+weeks. By the end of October, I expect to be through the end of S4, and by
+the end of December I expect the final pass to be complete — plus one extra
+movie.</p>
+<div class="markdown-heading"><h3 class="heading-element">War Without End</h3><a id="user-content-war-without-end" class="anchor" aria-label="Permalink: War Without End" href="#war-without-end"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>The biggest storyline from the full show that didn't make the cut (so far) is
+Sinclair's mythology. In this Sherlocked fan-edit, there's no mention of his
+missing day, no time traveling B4, and no great machine.</p>
+<p>But that's going to change, because I'm actively working on a fan-edit movie
+that will tell the entire Sinclair mythology story, from the battle of the
+line, to B4, to Valen, and I'm pacing my work on this movie so that its
+release will coincide with the completion of the final pass of updates by the
+end of December. Stay tuned. :-)</p>
+</article></body></html>
