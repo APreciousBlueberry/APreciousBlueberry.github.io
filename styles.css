@@ -57,3 +57,8 @@ a {
 .email {
   text-align: center;
 }
+.email-icon {
+  font-size: 1.75em;
+  position: relative;
+  top: 1px;
+}
