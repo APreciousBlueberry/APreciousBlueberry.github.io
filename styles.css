@@ -19,6 +19,9 @@ a {
   padding: 20px;
   width: 940px;
 }
+.heading {
+  border-bottom: 1px solid hsla(210,18%,87%,1);
+}
 .ascii-art-divider {
   text-align: center;
 }
@@ -47,4 +50,10 @@ a {
 }
 .sources {
   font-size: smaller;
+}
+.download {
+  text-align: center;
+}
+.email {
+  text-align: center;
 }
