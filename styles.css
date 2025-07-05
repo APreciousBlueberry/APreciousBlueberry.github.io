@@ -19,6 +19,13 @@ a {
   padding: 20px;
   width: 940px;
 }
+.compendium-link {
+  text-align: right;
+}
+.compendium-link-arrow {
+  display: inline-block;
+  transform: scaleY(-1) rotate(90deg);
+}
 .heading {
   border-bottom: 1px solid hsla(210,18%,87%,1);
 }
