@@ -1,0 +1,71 @@
+body {
+  background-color: black;
+  color: #1F2328;
+  font-family: sans-serif;
+}
+h2 {
+  border-bottom: 1px solid hsla(210,18%,87%,1);
+  padding-bottom: .3em;
+}
+a {
+  color: #0969da;
+  text-decoration: none;
+}
+
+.main {
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  width: 940px;
+}
+.compendium-link {
+  text-align: right;
+}
+.compendium-link-arrow {
+  display: inline-block;
+  transform: scaleY(-1) rotate(90deg);
+}
+.heading {
+  border-bottom: 1px solid hsla(210,18%,87%,1);
+}
+.ascii-art-divider {
+  text-align: center;
+}
+.movie {
+  display: flex;
+}
+.poster {
+  height: 130px;
+  margin-bottom: 3em;
+  object-fit: cover;
+  padding-top: .2em;
+  width: 173px;
+}
+.details {
+  margin-left: 1em;
+}
+.details h3 {
+  margin-top: 0;
+}
+.runtime {
+  font-weight: normal;
+}
+.note {
+  font-size: small;
+  font-weight: normal;
+}
+.sources {
+  font-size: smaller;
+}
+.download {
+  text-align: center;
+}
+.email {
+  text-align: center;
+}
+.email-icon {
+  font-size: 1.75em;
+  position: relative;
+  top: 1px;
+}
