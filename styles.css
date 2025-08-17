@@ -32,6 +32,13 @@ a {
 .ascii-art-divider {
   text-align: center;
 }
+.toc {
+  column-count: 2;
+}
+.toc li {
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+}
 .movie {
   display: flex;
 }
