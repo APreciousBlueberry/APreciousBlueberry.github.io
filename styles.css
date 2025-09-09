@@ -29,13 +29,42 @@ a {
 .heading {
   border-bottom: 1px solid hsla(210,18%,87%,1);
 }
+.heading img {
+  width: 100%;
+}
 .ascii-art-divider {
   text-align: center;
+}
+.toc {
+  column-count: 2;
+}
+.toc li {
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+}
+.edit-name {
+  font-weight: bold;
+  white-space: nowrap;
 }
 .movie {
   display: flex;
 }
-.poster {
+.poster-play {
+  position: relative;
+}
+.poster-play a {
+  display: none;
+  font-size: xx-large;
+  opacity: 0.9;
+  padding: calc((133px - 42px) / 2) calc((173px - 32px) / 2);
+  position: absolute;
+  text-shadow: 0 0 10px white, 0 0 20px white, 0 0 40px white;
+}
+.poster-play:active a,
+.poster-play:hover a {
+  display: block;
+}
+.poster-play img {
   height: 130px;
   margin-bottom: 3em;
   object-fit: cover;
