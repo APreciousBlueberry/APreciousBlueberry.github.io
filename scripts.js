@@ -1,24 +1,24 @@
+const iframeStr = `<iframe width="560" height="315" frameborder="0" allowfullscreen></iframe>`;
+
 const movieDialogStr = `
     <dialog id="movie-dialog">
-        <a
-            href="#"
-            onClick="
-                event.preventDefault();
-                document.querySelector('#movie-dialog').close();
-                document.querySelector('#movie-dialog iframe').src = '';
-            "
-            style="display:block; position: relative; top: -10px;"
-            title="Close"
-        >❌</a>
-        <iframe width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
+        <div class="movie-dialog__close">
+            <button
+                onClick="
+                    document.querySelector('#movie-dialog').close();
+                    document.querySelector('#movie-dialog iframe').remove();
+                "
+                title="Close"
+            >❌</button>
+        </div>
     </dialog>
 `;
 
-function showMovieDialog(event, whereDaMovie) {
-    event.preventDefault();
+function showMovieDialog(movieUrl) {
     if (! document.querySelector("#movie-dialog")) {
         document.body.insertAdjacentHTML("beforeend", movieDialogStr);
     }
-    document.querySelector("#movie-dialog iframe").src = whereDaMovie;
+    document.querySelector("#movie-dialog").insertAdjacentHTML("beforeend", iframeStr);
+    document.querySelector("#movie-dialog iframe").src = movieUrl;
     document.querySelector("#movie-dialog").showModal();
 }
