@@ -90,27 +90,18 @@ main {
   font-size: smaller;
   font-style: italic;
 }
+#movie-dialog[open] {
+  display: flex;
+  flex-direction: column;
+}
 .movie-dialog__close {
+  left: -6px;
   position: relative;
-  top: -8px;
+  top: -6px;
 }
 .movie-dialog__close button {
   background: none;
   border: none;
-}
-.toc {
-  column-count: 2;
-}
-.toc a {
-  text-decoration: none;
-}
-.toc li {
-  margin-bottom: 0.5em;
-  margin-top: 0.5em;
-}
-.toc__edit-name {
-  font-weight: bold;
-  white-space: nowrap;
 }
 .wide-img {
   width: 100%;
