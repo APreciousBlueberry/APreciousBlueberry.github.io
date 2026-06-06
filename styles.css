@@ -95,9 +95,6 @@ main {
   font-style: italic;
   margin-top: -1em;
 }
-.movie__tagline:before {
-  content: "— ";
-}
 #movie-dialog[open] {
   display: flex;
   flex-direction: column;
