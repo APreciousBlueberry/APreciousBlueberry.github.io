@@ -32,6 +32,40 @@ main {
   display: inline-block;
   transform: scaleY(-1) rotate(90deg);
 }
+.demos {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.demos__demo {
+  display: flex;
+  flex-direction: column;
+}
+.demos__demo h3 {
+  margin: 0;
+}
+.demos__demo iframe {
+  margin-top: auto;
+}
+.details__content {
+  mask-image: linear-gradient(to bottom, #000 60%, transparent 100%);
+  max-height: 175px;
+  overflow: hidden;
+}
+.details--expanded .details__content {
+  mask-image: none;
+  max-height: none;
+}
+.details__expand-btn {
+  text-align: center;
+}
+.details--expanded .details__expand-btn {
+  display: none;
+}
+.details__expand-btn button {
+  border-radius: 9999px;
+}
 .download {
   font-size: 2em;
   text-align: center;
@@ -49,6 +83,16 @@ main {
   font-size: 1.75em;
   position: relative;
   top: 1px;
+}
+.enjoy {
+  font-size: 2.5em;
+  margin-top: 1em;
+  text-align: center;
+}
+.enjoy:after {
+  content: "· · ────── ꒰ঌ·✦·໒꒱ ────── · ·";
+  display: block;
+  font-size: 1.25em;
 }
 .movie {
   display: flex;
@@ -70,6 +114,7 @@ main {
   width: 173px;
 }
 .movie__poster button {
+  border-radius: 9999px;
   font-size: x-large;
   opacity: 0.65;
   width: 100%;
